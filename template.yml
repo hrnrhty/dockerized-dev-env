@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  dde:
+    build:
+      context: .
+      args:
+        PASSWORD: set-your-password
+    container_name: dde
+    image: dde
+    ports:
+      - "127.0.0.1:22:22"
+    volumes:
+      - home-data:/root
+
+volumes:
+  home-data:
