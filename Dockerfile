@@ -39,11 +39,8 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-ARG PASSWORD=password
-
 RUN mkdir /var/run/sshd \
- && echo 'X11UseLocalhost no' >> /etc/ssh/sshd_config \
- && echo root:${PASSWORD} | chpasswd
+ && echo 'X11UseLocalhost no' >> /etc/ssh/sshd_config
 
 RUN cd /usr/local/src \
  && git clone https://github.com/vim/vim \

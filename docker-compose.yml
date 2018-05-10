@@ -4,8 +4,6 @@ services:
   dde:
     build:
       context: .
-      args:
-        PASSWORD: set-your-password
     container_name: dde
     image: dde
     ports:
