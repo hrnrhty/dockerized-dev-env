@@ -17,6 +17,7 @@ RUN apt-get update \
     lua5.2 \
     luajit \
     make \
+    python-dev \
     python3-dev \
     ruby-dev \
     screen \
@@ -53,6 +54,7 @@ RUN cd /usr/local/src \
     --disable-selinux \
     --enable-multibyte \
     --enable-perlinterp=dynamic \
+    --enable-pythoninterp=dynamic \
     --enable-python3interp=dynamic \
     --enable-rubyinterp=dynamic \
     --enable-tclinterp=yes \
