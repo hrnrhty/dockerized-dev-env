@@ -3,6 +3,7 @@ MAINTAINER hrnrhty <hrnrhty@gmail.com>
 
 RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    connect-proxy \
     firefox \
     gcc \
     gettext \
