@@ -3,7 +3,7 @@
 ## Usage
 
 ### Build and initial setting
-```sh
+```shell-session
 $ cd dockerized-dev-env
 $ docker-compose up -d
 $ docker cp your-public-key.pub dde:/root
@@ -19,17 +19,17 @@ $ docker exec -it dde /bin/bash
 ```
 
 ### SSH access
-```sh
+```shell-session
 $ ssh -Y root@localhost
 ```
 
 ### Stop the container
-```sh
+```shell-session
 $ docker-compose down
 ```
 Even if you stop the container, your home directory and its contents will be keep on the volume 'dde_home-data'
 
 ### Restart the container
-```sh
+```shell-session
 $ docker-compose up -d
 ```
