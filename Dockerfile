@@ -5,6 +5,8 @@ RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     connect-proxy \
     firefox \
+    fonts-ipafont-gothic \
+    fonts-ipafont-mincho \
     gcc \
     gettext \
     git \
