@@ -3,7 +3,9 @@ MAINTAINER hrnrhty <hrnrhty@gmail.com>
 
 RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    build-essential \
     connect-proxy \
+    curl \
     firefox \
     fonts-ipafont-gothic \
     fonts-ipafont-mincho \
@@ -11,10 +13,16 @@ RUN apt-get update \
     gettext \
     git \
     git-svn \
+    libbz2-dev \
     liblua5.2-dev \
     libluajit-5.1-dev \
     libncurses5-dev \
+    libncursesw5-dev \
     libperl-dev \
+    libreadline-dev \
+    libsqlite3-dev \
+    libssl-dev \
+    llvm \
     locales \
     lua5.2 \
     luajit \
@@ -28,8 +36,12 @@ RUN apt-get update \
     tmux \
     openssh-server \
     sudo \
+    tk-dev \
     vim-syntax-docker \
+    wget \
     xauth \
+    xz-utils \
+    zlib1g-dev \
     zsh \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
