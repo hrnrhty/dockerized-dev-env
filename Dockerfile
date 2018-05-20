@@ -35,7 +35,6 @@ RUN apt-get update \
     tcl-dev \
     tmux \
     openssh-server \
-    sudo \
     tk-dev \
     vim-syntax-docker \
     wget \
