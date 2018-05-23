@@ -9,19 +9,29 @@ RUN apt-get update \
     firefox \
     fonts-ipafont-gothic \
     fonts-ipafont-mincho \
+    freeglut3 \
+    freeglut3-dev \
     gcc \
     gettext \
     git \
     git-svn \
     libbz2-dev \
+    libgstreamer-plugins-base1.0-dev \
+    libgtk-3-dev \
+    libjpeg-dev \
     liblua5.2-dev \
     libluajit-5.1-dev \
     libncurses5-dev \
     libncursesw5-dev \
+    libnotify-dev \
     libperl-dev \
     libreadline-dev \
+    libsdl1.2-dev \
+    libsdl2-dev \
     libsqlite3-dev \
     libssl-dev \
+    libtiff-dev \
+    libwebkit2gtk-4.0-dev \
     llvm \
     locales \
     lua5.2 \
