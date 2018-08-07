@@ -46,10 +46,12 @@ RUN apt-get update \
     tmux \
     openssh-server \
     tk-dev \
+    unzip \
     vim-syntax-docker \
     wget \
     xauth \
     xz-utils \
+    zip \
     zlib1g-dev \
     zsh \
  && apt-get clean \
