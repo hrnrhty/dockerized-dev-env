@@ -16,6 +16,7 @@ RUN apt-get update \
     git \
     git-svn \
     libbz2-dev \
+    libffi-dev \
     libgstreamer-plugins-base1.0-dev \
     libgtk-3-dev \
     libjpeg-dev \
